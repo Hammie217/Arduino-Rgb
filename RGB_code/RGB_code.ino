@@ -22,5 +22,9 @@ for(int i=0;i<3;i++){
     Leds[i]--;
   }
 }
+analogWrite(A0,Leds[0]);
+analogWrite(A1,Leds[1]);
+analogWrite(A2,Leds[2]);
+delay(2);
 }
 
