@@ -1,7 +1,4 @@
 void setup() {
-  pinMode(A0,OUTPUT);
-  pinMode(A1,OUTPUT);
-  pinMode(A2,OUTPUT);
 }
 
 int Leds[3]={0,682,340};
@@ -22,9 +19,9 @@ for(int i=0;i<3;i++){
     Leds[i]--;
   }
 }
-analogWrite(A0,Leds[0]);
-analogWrite(A1,Leds[1]);
-analogWrite(A2,Leds[2]);
+analogWrite(0,Leds[0]);
+analogWrite(1,Leds[1]);
+analogWrite(2,Leds[2]);
 delay(2);
 }
 
