@@ -26,6 +26,6 @@ for(int i=0;i<3;i++){
 analogWrite(6,Leds[0]);
 analogWrite(3,Leds[1]);
 analogWrite(5,Leds[2]);
-delay(10);
+delay(1);
 }
 
